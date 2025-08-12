@@ -20,10 +20,5 @@
         }
       ]
     }
-  ],
-  "functions": {
-    "app/**": {
-      "runtime": "vercel/node@20.x"
-    }
+    ]
   }
-}
