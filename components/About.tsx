@@ -1,4 +1,3 @@
-import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { MapPin, Calendar, GraduationCap, Languages, Briefcase } from "lucide-react";
 
 export function About() {
@@ -87,17 +86,18 @@ export function About() {
             </div>
           </div>
           
-          {/* Profile Photo Section */}
-          <div className="flex justify-center lg:justify-start">
+           {/* Profile Photo Section */}
+           <div className="flex justify-center lg:justify-start">
             <div className="relative">
               {/* Main profile photo */}
-              <div className="relative w-64 h-64 lg:w-72 lg:h-72">  
-                <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face&q=80"
-                  alt="John Developer - Professional Developer Portrait"
+              <div className="relative w-64 h-64 lg:w-72 lg:h-72">
+                <img
+                  src="/fotoku.jpeg"
+                  alt="Professional Developer Portrait"
                   className="w-full h-full object-cover rounded-2xl shadow-lg"
                 />
                 
+
                 {/* Decorative elements */}
                 <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-2xl blur opacity-20 group-hover:opacity-30 transition duration-300"></div>
                 <div className="absolute -top-4 -right-4 w-8 h-8 bg-blue-500 rounded-full opacity-80"></div>
@@ -121,7 +121,7 @@ export function About() {
         <div className="mt-16 text-center">
           <div className="inline-flex items-center gap-2 bg-muted px-6 py-3 rounded-full">
             <span className="text-muted-foreground">💡 Fun fact:</span>
-            <span>I've contributed to 50+ open-source projects and sport especially badminton</span>
+            <span>I've contributed to 50+ open-source projects and having a keen interest in technology</span>
           </div>
         </div>
       </div>

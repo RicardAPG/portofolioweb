@@ -2,7 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Instagram } from "lucide-react";
 
 export function Contact() {
   return (
@@ -60,8 +60,8 @@ export function Contact() {
                 <a href="https://www.linkedin.com/in/ricardpratama/" className="bg-primary/10 p-3 rounded-lg hover:bg-primary/20 transition-colors">
                   <Linkedin className="h-6 w-6 text-primary" />
                 </a>
-                <a href="#" className="bg-primary/10 p-3 rounded-lg hover:bg-primary/20 transition-colors">
-                  <Twitter className="h-6 w-6 text-primary" />
+                <a href="https://www.instagram.com/ricardg_?igsh=MTF2bWtsYWNlMGJkaQ==" className="bg-primary/10 p-3 rounded-lg hover:bg-primary/20 transition-colors">
+                <Instagram className="h-6 w-6 text-primary" />
                 </a>
               </div>
             </div>

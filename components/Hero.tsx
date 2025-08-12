@@ -35,13 +35,13 @@ export function Hero() {
         
         <div className="flex justify-center gap-6">
           <a 
-            href="#" 
+            href="https://github.com/RicardAPG" 
             className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-lg hover:bg-muted/50"
           >
             <Github className="h-6 w-6" />
           </a>
           <a 
-            href="#" 
+            href="https://www.linkedin.com/in/ricardpratama/" 
             className="text-muted-foreground hover:text-primary transition-colors p-2 rounded-lg hover:bg-muted/50"
           >
             <Linkedin className="h-6 w-6" />

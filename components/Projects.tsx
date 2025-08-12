@@ -23,17 +23,17 @@ export function Projects() {
       githubUrl: "#"
     },
     {
-      title: "Analytics Dashboard",
-      description: "A comprehensive data visualization platform for business intelligence with interactive charts and real-time metrics.",
+      title: "E-Commerce Platform for Market",
+      description: "A user-friendly and attractive website for small and medium-sized businesses.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
-      technologies: ["React", "D3.js", "Python", "FastAPI", "Docker"],
+      technologies: ["HTML", "CSS", "PHP", "MySQL"],
       liveUrl: "#",
       githubUrl: "#"
     },
     {
       title: "Social Media App",
       description: "A modern social networking platform with features like real-time messaging, content sharing, and user engagement analytics.",
-      image: "https://images.unsplash.com/photo-1611262588024-d12430b98920?auto=format&fit=crop&w=800&q=80",
+      src: "https://images.unsplash.com/photo-1611262588024-d12430b98920?auto=format&fit=crop&w=800&q=80",
       technologies: ["Next.js", "TypeScript", "Prisma", "Vercel"],
       liveUrl: "#",
       githubUrl: "#"
