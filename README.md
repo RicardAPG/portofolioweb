@@ -177,9 +177,9 @@ This project is licensed under the MIT License.
 
 ## 📞 Contact
 
-- **Email**: john.developer@email.com
-- **LinkedIn**: [linkedin.com/in/johndeveloper](https://linkedin.com/in/johndeveloper)
-- **GitHub**: [github.com/johndeveloper](https://github.com/johndeveloper)
+- **Email**: 
+- **LinkedIn**: 
+- **GitHub**: 
 
 ---
 
