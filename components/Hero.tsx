@@ -2,6 +2,16 @@ import { Button } from "./ui/button";
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 
 export function Hero() {
+  const handleGetInTouch = () => {
+    const contactSection = document.getElementById('contact');
+    contactSection?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+const handleDownloadResume = () => {
+  // Open the PDF file in a new tab where it can be viewed and downloaded
+  window.open('/resume.pdf', '_blank');
+};
+
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background via-background to-muted px-6 relative overflow-hidden">
       {/* Subtle background pattern for visual interest */}
@@ -23,11 +33,11 @@ export function Hero() {
         </div>
         
         <div className="flex flex-wrap justify-center gap-4 mb-8">
-          <Button size="lg" className="gap-2">
+          <Button size="lg" className="gap-2" onClick={handleGetInTouch}>
             <Mail className="h-4 w-4" />
             Get In Touch
           </Button>
-          <Button variant="outline" size="lg" className="gap-2">
+          <Button variant="outline" size="lg" className="gap-2" onClick={handleDownloadResume}>
             <FileText className="h-4 w-4" />
             Download Resume
           </Button>
