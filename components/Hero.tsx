@@ -20,7 +20,7 @@ const handleDownloadResume = () => {
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl mb-4 bg-gradient-to-r from-primary via-primary to-primary/70 bg-clip-text text-transparent">
-            RicardAPG Developer
+            Ricard Adventrus Pratama Gultom
           </h1>
           <h2 className="text-xl md:text-2xl text-muted-foreground mb-6">
             Full Stack Developer & Software Engineer
