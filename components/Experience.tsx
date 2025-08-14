@@ -6,23 +6,23 @@ export function Experience() {
   const workExperience = [
     {
       title: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
+      company: "Startup Ridara",
+      location: "Lampung Tengah, Lampung",
       period: "2022 - Present",
       description: "Lead development of web applications serving 100K+ users. Architected microservices infrastructure and mentored junior developers.",
       technologies: ["React", "Node.js", "AWS", "Docker", "PostgreSQL"]
     },
     {
       title: "Full Stack Developer",
-      company: "StartupXYZ",
-      location: "San Francisco, CA",
+      company: "Startup Ridara",
+      location: "Lampung Tengah, Lampung",
       period: "2020 - 2022",
       description: "Built scalable web applications from ground up. Implemented CI/CD pipelines and improved application performance by 40%.",
       technologies: ["Vue.js", "Express.js", "MongoDB", "Redis"]
     },
     {
       title: "Frontend Developer",
-      company: "Digital Agency Inc",
+      company: "Startup Ridara",
       location: "Remote",
       period: "2019 - 2020",
       description: "Developed responsive web applications for various clients. Collaborated with design teams to implement pixel-perfect UIs.",
