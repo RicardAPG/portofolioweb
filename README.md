@@ -182,5 +182,3 @@ This project is licensed under the MIT License.
 - **GitHub**: 
 
 ---
-
-Built with ❤️ by John Developer
